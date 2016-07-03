@@ -1,0 +1,186 @@
+<!-- 首页导航 -->
+<header id="index-nav">
+  <ul>
+    <li>
+      <i class="yo-ico">&#xe615</i>
+      <b>扫一扫</b>
+    </li>
+    <li>
+      <img src="/nongjiwang/images/index_search.jpg" alt="">
+    </li>
+    <li>
+      <i class="yo-ico">&#xe635;</i>
+      <b>消息</b>
+    </li>
+  </ul>
+</header>
+<!--首页的滚动区  -->
+<div class="m-home" spa-widget="scroll" data-scroll-id="hScroll">
+    <div>
+      <!--  下拉刷新-->
+      <div class="head">
+          <img src="/nongjiwang/images/arrow.png" width="40" height="40"/>
+          <span>下拉刷新...</span>
+      </div>
+      <!--  下拉刷新结束-->
+      <div class="h-banner">
+        <!-- banner 图的swiper -->
+        <div class="swiper-container" id="home-swiper">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img ms-src="activepic">
+              </div>
+              <div class="swiper-slide">
+                <img ms-src="crowdpic">
+              </div>
+          </div>
+          <!-- 如果需要分页器 -->
+          <div class="swiper-pagination"></div>
+      </div>
+        <!-- banner 图的swiper 结束 -->
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <img src="/nongjiwang/images/h-nav1.jpg" alt="">
+            <b>农药</b>
+          </li>
+          <li>
+            <img src="/nongjiwang/images/h-nav2.jpg" alt="">
+            <b>肥料</b>
+          </li>
+          <li>
+            <img src="/nongjiwang/images/h-nav3.jpg" alt="">
+            <b>种子</b>
+          </li>
+          <li>
+            <img src="/nongjiwang/images/h-nav4.jpg" alt="">
+            <b>农机</b>
+          </li>
+          <li>
+            <img src="/nongjiwang/images/h-nav5.jpg" alt="">
+            <b>商城</b>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <div class="h-content">
+          <ul class="h-title">
+            <li>农药</li>
+            <li></li>
+            <li action-type="goto.list1">更多</li>
+          </ul>
+          <div class="h-product">
+            <ul class="h-list" ms-repeat-value="livelist">
+              <li action-type="goto.details1" ms-attr-data-id="value[0].id">
+                <div>
+                  <img ms-src="value[0].imgsrc" alt="">
+                </div>
+                <p ms-text="value[0].title"></p>
+              </li>
+              <li>
+                <div>
+                  <img ms-src="value[1].imgsrc" alt="">
+                </div>
+                <p ms-text="value[1].title"></p>
+              </li>
+              <li>
+                <div>
+                  <img ms-src="value[2].imgsrc" alt="">
+                </div>
+                <p ms-text="value[2].title"></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="h-content">
+          <ul class="h-title">
+            <li>肥料</li>
+            <li></li>
+            <li>更多</li>
+          </ul>
+          <div class="h-product">
+            <ul class="h-list" ms-repeat-value="fl">
+              <li action-type="goto.details1">
+                <div>
+                  <img ms-src="value[0].imgsrc" alt="">
+                </div>
+                <p ms-text="value[0].title"></p>
+              </li>
+              <li>
+                <div>
+                  <img ms-src="value[1].imgsrc" alt="">
+                </div>
+                <p ms-text="value[1].title"></p>
+              </li>
+              <li>
+                <div>
+                  <img ms-src="value[2].imgsrc" alt="">
+                </div>
+                <p ms-text="value[2].title"></p>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="h-content">
+          <ul class="h-title">
+            <li>种子</li>
+            <li></li>
+            <li>更多</li>
+          </ul>
+          <div class="h-product">
+            <ul class="h-list" ms-repeat-value="zz">
+              <li action-type="goto.details1">
+                <div>
+                  <img ms-src="value[0].imgsrc" alt="">
+                </div>
+                <p ms-text="value[0].title"></p>
+              </li>
+              <li>
+                <div>
+                  <img ms-src="value[1].imgsrc" alt="">
+                </div>
+                <p ms-text="value[1].title"></p>
+              </li>
+              <li>
+                <div>
+                  <img ms-src="value[2].imgsrc" alt="">
+                </div>
+                <p ms-text="value[2].title"></p>
+              </li>
+            </ul>
+          </div>
+          <div class="h-content">
+            <ul class="h-title">
+              <li>农机</li>
+              <li></li>
+              <li>更多</li>
+            </ul>
+            <div class="h-product">
+              <ul class="h-list" ms-repeat-value="nj">
+                <li action-type="goto.details1">
+                  <div>
+                    <img ms-src="value[0].imgsrc" alt="">
+                  </div>
+                  <p ms-text="value[0].title"></p>
+                </li>
+                <li>
+                  <div>
+                    <img ms-src="value[1].imgsrc" alt="">
+                  </div>
+                  <p ms-text="value[1].title"></p>
+                </li>
+                <li>
+                  <div>
+                    <img ms-src="value[2].imgsrc" alt="">
+                  </div>
+                  <p ms-text="value[2].title"></p>
+                </li>
+              </ul>
+
+            </div>
+        </div>
+      </section>
+    </div>
+</div>

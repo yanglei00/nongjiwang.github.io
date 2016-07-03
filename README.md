@@ -1,2 +1,0 @@
-# nongjiwang.github.io
-nongjiwang 

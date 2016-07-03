@@ -1,0 +1,195 @@
+// 公共标题样式部分
+.h-title{
+  width: 100%;
+  height: .3rem;
+  @include flexbox();
+  @include box-sizing(border-box);
+  @include border(0  0 1px 0,#dedede);
+  li{
+    &:nth-child(1), &:nth-child(3){
+      width: .45rem;
+      height: 100%;
+      text-align: center;
+      line-height: .3rem;
+    }
+    &:nth-child(1){
+      font-size: .14rem;
+      color: #34a726;
+      border-left: 2px solid #34a726;
+      @include box-sizing(border-box);
+    }
+    &:nth-child(2){
+      @include flex(1);
+      width: 100%;
+      height: 100%;
+    }
+    &:nth-child(3){
+      font-size: .2rem;
+      @include transform(scale(0.5));
+      color: #989898;
+    }
+
+  }
+}
+// 下拉刷新样式
+  .head {
+       text-align: center;
+       height: .3rem;
+       line-height: .3rem;
+   }
+   .head img {
+     width: .2rem;
+     height: .2rem;
+       margin-bottom: -.07rem;
+       display: inline-block;
+       transform: rotate(180deg);
+       -webkit-transform: rotate(180deg);
+       transition: transform 150ms;
+       -webkit-transition: transform 150ms;
+   }
+//产品列表的公共样式
+.h-product{
+  width: 100%;
+  margin-bottom: .1rem;
+  .h-list{
+    width: 100%;
+    @include flexbox();
+    li{
+      @include flex(1);
+      width: 100%;
+      @include border(0 1px 1px 0,#e8e8e8);
+      @include box-sizing(border-box);
+      div{
+        width: 100%;
+        height: 1rem;
+        padding-top: .05rem;
+        text-align: center;
+        line-height: 1rem;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      p{
+        height: .4rem;
+        font-size: .12rem;
+        color: #333;
+        padding: 0 .1rem .05rem .1rem;
+      }
+    }
+  }
+}
+// 首页的导航
+#index-nav{
+  width: 100%;
+  height: .44rem;
+  background: rgba(0,255,0,0);
+  position:fixed;
+  top:0;
+  left:0;
+  z-index: 1;
+  ul{
+    width: 100%;
+    height: 100%;
+    @include flexbox();
+    padding: 0 .05rem;
+    @include box-sizing(border-box);
+    li{
+      &:nth-child(1),&:nth-child(3){
+        width: .44rem;
+        height: .44rem;
+        @include flexbox();
+        @include flex-direction(column);
+        i{
+          font-size: .2rem;
+          color: rgba(255,255,255,0.7);
+          text-align: center;
+          margin-top: .02rem;
+        }
+        b{
+          display: block;
+          font-weight: normal;
+          @include transform(scale(0.8));
+          color: rgba(255,255,255,0.7);
+          text-align: center;
+          margin-top: -0.06rem;
+        }
+      }
+      &:nth-child(2){
+        @include flex(1);
+        width: 100%;
+        height: 100%;
+        padding: 0 .1rem;
+        @include box-sizing(border-box);
+        @include flexbox();
+        @include align-items(center);
+        img{
+          display: block;
+          width: 100%;
+          height: .3rem;
+          border: 0;
+          @include border-radius(0.05rem);
+        }
+      }
+    }
+  }
+}
+
+// 首页主题区
+.m-home{
+  width: 100%;
+  height: 100%;
+  @include flexbox();
+  @include flex-direction(column);
+  .h-banner{
+    width: 100%;
+    height: 1.6rem;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  nav{
+    width: 100%;
+    height: .76rem;
+    background: #fff;
+    @include border(0 0 1px 0,#dedede);
+    @include box-sizing(border-box);
+    ul{
+      width: 100%;
+      height: 100%;
+      @include flexbox();
+      li{
+        @include flex(1);
+        width: 100%;
+        height: 100%;
+        @include flexbox();
+        @include flex-direction(column);
+        @include align-items(center);
+        @include justify-content(center);
+        img{
+          display: block;
+          width: .36rem;
+          height: .36rem;
+        }
+        b{
+          display: block;
+          font-weight: normal;
+          font-size: .2rem;
+          @include transform(scale(.5));
+          color: #808080;
+          margin-top: -0.05rem;
+        }
+      }
+    }
+  }
+  section{
+    @include flex(1);
+    // 这里必须加overflow:hidden;  因为用弹性盒分内容时,如果分到的一份里的内容过多的话 就会将本该的盒子撑大
+    overflow: hidden;
+    width: 100%;
+    .h-content{
+      width: 100%;
+    }
+  }
+}

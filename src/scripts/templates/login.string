@@ -1,0 +1,20 @@
+<div class="login">
+  <h2>农集网登录</h2>
+  <div class="login-content">
+    <div class="login-txt">
+      <input type="text" name="name" id="login-txt" placeholder="手机号">
+    </div>
+    <div class="login-pwd">
+      <input type="password" id="login-pwd" placeholder="请输入密码">
+    </div>
+    <p>
+      <i action-type="goto.register">注册</i>
+      <b></b>
+      <a>忘记密码？</a>
+    </p>
+    <input type="button" id="login-btn" value="登录" action-type="goto.index">
+    <p>
+      如有农集网零售店账号，请直接登录；没有账号？请点击“<i>注册</i>”，如注册失败，请联系客服：<i>400-674-1818</i>
+    </p>
+  </div>
+</div>

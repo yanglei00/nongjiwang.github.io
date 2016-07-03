@@ -1,0 +1,27 @@
+<div class="cart">
+  <header>
+    <ul>
+      <li action-type="back">
+          <i class="yo-ico">&#xe63d;</i>
+      </li>
+      <li>
+        <ul>
+          <li class="active">农集进货车</li>
+          <li>易购进货车</li>
+        </ul>
+      </li>
+      <li></li>
+    </ul>
+  </header>
+  <section>
+    <ul class="cart-empty">
+      <li>
+        <i class="yo-ico">&#xe62b;</i>
+      </li>
+      <li>你的进货车还没有任何的产品</li>
+      <li>
+        <div action-type="goto.list1">去逛逛</div>
+      </li>
+    </ul>
+  </section>
+</div>

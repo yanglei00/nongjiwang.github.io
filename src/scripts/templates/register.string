@@ -1,0 +1,37 @@
+<div class="register">
+  <ul class="top">
+    <li action-type="back">
+      <i class="yo-ico">&#xe63d;</i>
+    </li>
+    <li></li>
+  </ul>
+  <h2>农集网注册</h2>
+  <ul class="register-content">
+    <!-- <li>
+      <input type="text" name="name" id="register-txt" placeholder="请输入手机号">
+    </li>
+    <li>
+      <ul>
+        <li>
+          <input type="password" id="register-pwd" placeholder="右侧图片验证码">
+        </li>
+        <li>
+          <img src="/nongjiwang/images/register1.png" alt="">
+        </li>
+      </ul>
+    </li>
+    <li>
+      <ul>
+        <li>
+          <input type="text" placeholder="请输入短信验证码">
+        </li>
+        <li>
+          获取验证码
+        </li>
+      </ul>
+    </li>
+    <li>
+      <input type="button" id="register-btn" value="下一步">
+    </li> -->
+  </ul>
+</div>

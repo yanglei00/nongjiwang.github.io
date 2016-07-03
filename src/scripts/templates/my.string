@@ -1,0 +1,106 @@
+<!--my导航区  -->
+<header id="my-nav">
+  <ul>
+    <li>
+      <img src="/nongjiwang/images/my-nav1.jpg" alt="">
+    </li>
+    <li>
+      我的农集
+    </li>
+    <li>
+    </li>
+  </ul>
+</header>
+
+<!--my主体区  -->
+<div class="my" spa-widget="scroll">
+  <section>
+    <div class="my-header">
+      <div class="my-top">
+        <ul>
+          <li>
+            <img src="/nongjiwang/images/default.jpg" alt="">
+          </li>
+          <li>
+            <p>编辑资料</p>
+            <p><i></i>未认证</p>
+          </li>
+        </ul>
+      </div>
+      <ul class="my-nav">
+        <li>
+          <i>0</i>
+          <b>我的收藏</b>
+        </li>
+        <li>
+          <i>0</i>
+          <b>浏览记录</b>
+        </li>
+      </ul>
+    </div>
+    <div class="my-content">
+      <ul class="my-title">
+        <li><img src="/nongjiwang/images/my-title1.jpg" alt=""></li>
+        <li>我的账户</li>
+        <li><img src="/nongjiwang/images/my-title2.jpg" alt=""></li>
+      </ul>
+      <ul class="my-account">
+        <li>
+          <i>¥0.00</i>
+          <b>余额</b>
+        </li>
+        <li>
+          <i>¥0.00</i>
+          <b>赠送余额</b>
+        </li>
+      </ul>
+      <ul class="my-title my-indent">
+        <li><img src="/nongjiwang/images/my-indent1.jpg" alt=""></li>
+        <li>
+          <i>我的农集订单</i>
+          <b>查看全部订单</b>
+        </li>
+        <li><img src="/nongjiwang/images/my-title2.jpg" alt=""></li>
+      </ul>
+      <ul class="my-indent-list">
+        <li>
+          <i class="yo-ico">&#xe803;</i>
+          <b>待付款</b>
+        </li>
+        <li>
+          <i class="yo-ico">&#xe654;</i>
+          <b>待发货</b>
+        </li>
+        <li>
+          <i class="yo-ico">&#xe618;</i>
+          <b>已发货</b>
+        </li>
+        <li>
+          <i class="yo-ico">&#xe62d;</i>
+          <b>已收货</b>
+        </li>
+      </ul>
+      <ul class="my-title">
+        <li><img src="/nongjiwang/images/my-indent2.jpg" alt=""></li>
+        <li>我的众筹订单</li>
+        <li><img src="/nongjiwang/images/my-title2.jpg" alt=""></li>
+      </ul>
+      <ul class="my-title">
+        <li><img src="/nongjiwang/images/my-indent3.jpg" alt=""></li>
+        <li>回款订单</li>
+        <li><img src="/nongjiwang/images/my-title2.jpg" alt=""></li>
+      </ul>
+      <ul class="my-title my-credit">
+        <li><img src="/nongjiwang/images/my-indent4.jpg" alt=""></li>
+        <li>我的信用账户</li>
+        <li><img src="/nongjiwang/images/my-title2.jpg" alt=""></li>
+      </ul>
+      <ul class="my-footer">
+        <li>信用账户：未开通</li>
+        <li>
+          <a href="###">我要开通</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</div>

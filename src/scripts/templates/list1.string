@@ -1,0 +1,51 @@
+<div class="list1" spa-widget="scroll" data-scroll-id="list1Scroll">
+  <div>
+    <div class="head">
+        <img src="/nongjiwang/images/arrow.png" width="20" height="20"/>
+        <span>下拉刷新...</span>
+    </div>
+    <header class="list1-nav">
+      <ul>
+        <li action-type="back">
+          <i class="yo-ico">&#xe63d;</i>
+        </li>
+        <li>
+          <img src="/nongjiwang/images/index_search.jpg" alt="">
+        </li>
+        <li>
+          <i>筛选</i>
+        </li>
+      </ul>
+    </header>
+    <div class="option">
+      <ul>
+        <li class="active" action-type="switch.tabs">默认</li>
+        <li action-type="switch.tabs">新品<i></i></li>
+      </ul>
+    </div>
+    <section class="list1-list" spa-widget="scroll"  ms-repeat-value="livelist">
+      <div>
+        <dl>
+          <dt>
+            <img ms-src="value.imgsrc" alt="">
+          </dt>
+          <dd>
+            <p ms-text="value.title">奥得腾（35%水分散粒剂）</p>
+            <p>3克*100袋*8盒/件</p>
+            <p>商品编号：A23700001309</p>
+            <p>￥1880.00</p>
+            <div class="list1-cart">
+              <i class="yo-ico">&#xe62b;</i>
+            </div>
+          </dd>
+        </dl>
+      </div>
+
+    </section>
+    <div class="foot">
+        <img src="/nongjiwang/images/arrow.png" width="20" height="20"/>
+        <span>上拉加载更多...</span>
+    </div>
+  </div>
+
+</div>

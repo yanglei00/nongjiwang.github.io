@@ -1,0 +1,19 @@
+<!-- swiper的轮播图的切换 -->
+<!-- <div class="swiper-container" id="guide-swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="/nongjiwang/images/guide0.png">
+    </div>
+    <div class="swiper-slide">
+      <img src="/nongjiwang/images/guide1.png">
+    </div>
+    <div class="swiper-slide">
+      <img src="/nongjiwang/images/guide2.png">
+    </div>
+    <div class="swiper-slide" action-type="goto.index">
+      <img src="/nongjiwang/images/guide3.png">
+    </div>
+  </div>
+  <!- 如果需要分页器 -->
+     <!-- <div class="swiper-pagination"></div>
+</div>  -->

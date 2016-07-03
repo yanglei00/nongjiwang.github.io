@@ -1,0 +1,39 @@
+<div class="details1" ms-visible="!isShowLoading">
+    <section>
+      <div class="pic">
+        <img ms-src="imgsrc" alt="">
+        <div class="back" action-type="back">
+          <i class="yo-ico">&#xe63d;</i>
+        </div>
+      </div>
+      <div class="content">
+        <ul>
+          <li ms-text="title"></li>
+          <li>让增产更轻松</li>
+          <li>认证后查看价格</li>
+          <li>规格：<i>250毫升/瓶</i></li>
+          <li>品牌： <i>巴斯夫</i></li>
+          <li>编号： <i>A1270100034890</i></li>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li>
+          <i class="yo-ico">&#xe623;</i>
+        </li>
+        <li>
+          <i>-</i>
+          <input type="text" value="1">
+          <i>+</i>
+        </li>
+        <li>
+          <a href="###">暂不支持下单</a>
+        </li>
+      </ul>
+    </footer>
+
+</div>
+<div class="yo-loading" ms-visible="isShowLoading">
+  <div class="inner"><i class="yo-ico"></i><span>加载中...</span></div>
+</div>
